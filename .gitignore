@@ -1,0 +1,12 @@
+node_modules/
+build/
+.vscode/
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+*.log
+
+# Keep environment variables out of version control
+.env
+.env.local
+.env.*.local
