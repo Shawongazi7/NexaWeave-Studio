@@ -91,7 +91,7 @@ export function AuthDialog({ open, onOpenChange, onSuccess }: AuthDialogProps) {
             <p className="text-gray-600 mt-2">
               {activeTab === 'login' 
                 ? 'Sign in to continue building amazing websites'
-                : 'Join thousands of creators building with WebBuilder Pro'
+                : 'Join thousands of creators building with NexaWeave Studio'
               }
             </p>
           </DialogHeader>

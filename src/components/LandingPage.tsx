@@ -116,7 +116,7 @@ export function LandingPage({ onNavigate, onGoToDashboard }: LandingPageProps) {
       name: "Sarah Johnson",
       role: "Small Business Owner",
       image: "https://images.unsplash.com/photo-1494790108755-2616b332c2f2?w=100&h=100&fit=crop",
-      content: "WebBuilder Pro helped me create a stunning website for my bakery in just one afternoon. The templates are beautiful and so easy to customize!",
+      content: "NexaWeave Studio helped me create a stunning website for my bakery in just one afternoon. The templates are beautiful and so easy to customize!",
       rating: 5
     },
     {
@@ -205,7 +205,7 @@ export function LandingPage({ onNavigate, onGoToDashboard }: LandingPageProps) {
               <Globe className="h-5 w-5 text-white" />
             </div>
             <span className="text-xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              WebBuilder Pro
+              NexaWeave Studio
             </span>
           </div>
           
@@ -447,7 +447,7 @@ export function LandingPage({ onNavigate, onGoToDashboard }: LandingPageProps) {
               Loved by Thousands of Users
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              See what our users say about their experience building websites with WebBuilder Pro
+              See what our users say about their experience building websites with NexaWeave Studio
             </p>
           </div>
 
@@ -537,7 +537,7 @@ export function LandingPage({ onNavigate, onGoToDashboard }: LandingPageProps) {
             Ready to Build Your Dream Website?
           </h2>
           <p className="text-xl mb-8 opacity-90">
-            Join thousands of users who have already created amazing websites with WebBuilder Pro
+            Join thousands of users who have already created amazing websites with NexaWeave Studio
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
@@ -570,7 +570,7 @@ export function LandingPage({ onNavigate, onGoToDashboard }: LandingPageProps) {
                 <div className="w-8 h-8 bg-gradient-to-br from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
                   <Globe className="h-5 w-5 text-white" />
                 </div>
-                <span className="text-xl font-bold">WebBuilder Pro</span>
+                <span className="text-xl font-bold">NexaWeave Studio</span>
               </div>
               <p className="text-gray-400 mb-4">
                 The easiest way to create professional websites without coding.
@@ -609,7 +609,7 @@ export function LandingPage({ onNavigate, onGoToDashboard }: LandingPageProps) {
           </div>
           
           <div className="border-t border-gray-800 pt-8 text-center text-gray-400">
-            <p>&copy; 2025 WebBuilder Pro. All rights reserved.</p>
+            <p>&copy; 2026 NexaWeave Studio. All rights reserved.</p>
           </div>
         </div>
       </footer>

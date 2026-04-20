@@ -434,7 +434,7 @@ export function PublishingPanel({
                     onChange={(e) => updateSettings({ subdomain: e.target.value })}
                     placeholder="my-awesome-site"
                   />
-                  <span className="text-sm text-muted-foreground">.webbuilder.app</span>
+                  <span className="text-sm text-muted-foreground">.nexaweave.site</span>
                   <Button 
                     variant="outline" 
                     size="sm" 
@@ -444,7 +444,7 @@ export function PublishingPanel({
                   </Button>
                 </div>
                 <p className="text-xs text-muted-foreground mt-1">
-                  This will be your site URL: {settings.subdomain || 'your-site'}.webbuilder.app
+                  This will be your site URL: {settings.subdomain || 'your-site'}.nexaweave.site
                 </p>
               </div>
 

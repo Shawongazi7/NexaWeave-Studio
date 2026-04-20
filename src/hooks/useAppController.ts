@@ -240,7 +240,7 @@ export function useAppController() {
       return;
     }
 
-    const publishUrl = `https://mysite-${project.id}.webbuilder.app`;
+    const publishUrl = `https://mysite-${project.id}.nexaweave.site`;
 
     try {
       const { project: apiProject } = await apiUpdateProject(token, project.id, {

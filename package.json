@@ -1,5 +1,6 @@
 {
       "name": "nexaweave-studio",
+      "description": "NexaWeave Studio - a visual website builder platform powered by React, Vite, Express, and SQLite.",
       "version": "0.1.0",
       "private": true,
       "dependencies": {

@@ -519,7 +519,7 @@ export function TemplatePreview({ template, onUseTemplate, onNavigate }: Templat
             </Button>
             <div className="flex items-center space-x-2">
               <Globe className="h-8 w-8 text-primary" />
-              <h1 className="text-xl font-bold">WebBuilder Pro</h1>
+              <h1 className="text-xl font-bold">NexaWeave Studio</h1>
             </div>
           </div>
           <div className="flex items-center space-x-4">

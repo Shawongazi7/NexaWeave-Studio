@@ -376,7 +376,7 @@ export function AdvancedTemplateEditor({ project, onSave, onPublish, onNavigate 
     }, 1000);
 
     setTimeout(() => {
-      const publishUrl = `https://${publishingSettings.subdomain || 'my-site'}.webbuilder.app`;
+      const publishUrl = `https://${publishingSettings.subdomain || 'my-site'}.nexaweave.site`;
       setDeploymentStatus({
         status: 'success',
         progress: 100,

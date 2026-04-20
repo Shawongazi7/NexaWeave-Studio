@@ -121,7 +121,7 @@ app.use((req, _res, next) => {
 
 app.get("/", (_req, res) => {
   res.json({
-    service: "Website Builder API",
+    service: "NexaWeave Studio API",
     status: "ok",
     database: "sqlite",
     endpoints: ["/health", "/auth/signup", "/auth/login", "/auth/me", "/projects"],
@@ -390,7 +390,7 @@ function startServer() {
     seed();
     app.listen(PORT, () => {
       // eslint-disable-next-line no-console
-      console.log(`Auth server listening on http://localhost:${PORT}`);
+      console.log(`NexaWeave Studio API listening on http://localhost:${PORT}`);
     });
   } catch (error) {
     // eslint-disable-next-line no-console
